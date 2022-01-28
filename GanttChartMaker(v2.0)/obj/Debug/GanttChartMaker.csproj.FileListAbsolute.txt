@@ -1,0 +1,47 @@
+D:\Documents HDD\VisualStudio Personal Project\GanttChartMaker(v2.0\GanttChartMaker(v2.0\obj\Debug\GanttChartMaker_v2._0.GanttChartMaker.resources
+D:\Documents HDD\VisualStudio Personal Project\GanttChartMaker(v2.0\GanttChartMaker(v2.0\obj\Debug\GanttChartMaker_v2._0.Properties.Resources.resources
+D:\Documents HDD\VisualStudio Personal Project\GanttChartMaker(v2.0\GanttChartMaker(v2.0\obj\Debug\GanttChartMaker.csproj.GenerateResource.cache
+D:\Documents HDD\VisualStudio Personal Project\GanttChartMaker(v2.0\GanttChartMaker(v2.0\obj\Debug\GanttChartMaker(v2.0.exe
+D:\Documents HDD\VisualStudio Personal Project\GanttChartMaker(v2.0\GanttChartMaker(v2.0\obj\Debug\GanttChartMaker(v2.0.pdb
+D:\Documents HDD\VisualStudio Personal Project\GanttChartMaker(v2.0\GanttChartMaker(v2.0\bin\Debug\GanttChartMaker(v2.0.exe.config
+D:\Documents HDD\VisualStudio Personal Project\GanttChartMaker(v2.0\GanttChartMaker(v2.0\bin\Debug\GanttChartMaker(v2.0.exe
+D:\Documents HDD\VisualStudio Personal Project\GanttChartMaker(v2.0\GanttChartMaker(v2.0\bin\Debug\GanttChartMaker(v2.0.pdb
+D:\Documents HDD\VisualStudio Personal Project\GanttChartMaker(v2.0)\GanttChartMaker(v2.0)\bin\Debug\GanttChartMaker(v2.0.exe.config
+D:\Documents HDD\VisualStudio Personal Project\GanttChartMaker(v2.0)\GanttChartMaker(v2.0)\bin\Debug\GanttChartMaker(v2.0.exe
+D:\Documents HDD\VisualStudio Personal Project\GanttChartMaker(v2.0)\GanttChartMaker(v2.0)\bin\Debug\GanttChartMaker(v2.0.pdb
+D:\Documents HDD\VisualStudio Personal Project\GanttChartMaker(v2.0)\GanttChartMaker(v2.0)\obj\Debug\GanttChartMaker.csprojAssemblyReference.cache
+D:\Documents HDD\VisualStudio Personal Project\GanttChartMaker(v2.0)\GanttChartMaker(v2.0)\obj\Debug\GanttChartMaker_v2._0.GanttChartMaker.resources
+D:\Documents HDD\VisualStudio Personal Project\GanttChartMaker(v2.0)\GanttChartMaker(v2.0)\obj\Debug\GanttChartMaker_v2._0.Properties.Resources.resources
+D:\Documents HDD\VisualStudio Personal Project\GanttChartMaker(v2.0)\GanttChartMaker(v2.0)\obj\Debug\GanttChartMaker.csproj.GenerateResource.cache
+D:\Documents HDD\VisualStudio Personal Project\GanttChartMaker(v2.0)\GanttChartMaker(v2.0)\obj\Debug\GanttChartMaker(v2.0.exe
+D:\Documents HDD\VisualStudio Personal Project\GanttChartMaker(v2.0)\GanttChartMaker(v2.0)\obj\Debug\GanttChartMaker(v2.0.pdb
+D:\Documents HDD\Workstations\VIsual Studio Workplaces\VisualStudio Personal Project\GanttChartMaker(v2.0)\GanttChartMaker(v2.0)\bin\Debug\GanttChartMaker(v2.0.exe.config
+D:\Documents HDD\Workstations\VIsual Studio Workplaces\VisualStudio Personal Project\GanttChartMaker(v2.0)\GanttChartMaker(v2.0)\bin\Debug\GanttChartMaker(v2.0.exe
+D:\Documents HDD\Workstations\VIsual Studio Workplaces\VisualStudio Personal Project\GanttChartMaker(v2.0)\GanttChartMaker(v2.0)\bin\Debug\GanttChartMaker(v2.0.pdb
+D:\Documents HDD\Workstations\VIsual Studio Workplaces\VisualStudio Personal Project\GanttChartMaker(v2.0)\GanttChartMaker(v2.0)\obj\Debug\GanttChartMaker.csprojAssemblyReference.cache
+D:\Documents HDD\Workstations\VIsual Studio Workplaces\VisualStudio Personal Project\GanttChartMaker(v2.0)\GanttChartMaker(v2.0)\obj\Debug\GanttChartMaker_v2._0.GanttChartMaker.resources
+D:\Documents HDD\Workstations\VIsual Studio Workplaces\VisualStudio Personal Project\GanttChartMaker(v2.0)\GanttChartMaker(v2.0)\obj\Debug\GanttChartMaker_v2._0.Properties.Resources.resources
+D:\Documents HDD\Workstations\VIsual Studio Workplaces\VisualStudio Personal Project\GanttChartMaker(v2.0)\GanttChartMaker(v2.0)\obj\Debug\GanttChartMaker.csproj.GenerateResource.cache
+D:\Documents HDD\Workstations\VIsual Studio Workplaces\VisualStudio Personal Project\GanttChartMaker(v2.0)\GanttChartMaker(v2.0)\obj\Debug\GanttChartMaker.csproj.CoreCompileInputs.cache
+D:\Documents HDD\Workstations\VIsual Studio Workplaces\VisualStudio Personal Project\GanttChartMaker(v2.0)\GanttChartMaker(v2.0)\obj\Debug\GanttChartMaker(v2.0.exe
+D:\Documents HDD\Workstations\VIsual Studio Workplaces\VisualStudio Personal Project\GanttChartMaker(v2.0)\GanttChartMaker(v2.0)\obj\Debug\GanttChartMaker(v2.0.pdb
+D:\Documents HDD\Workstations\VIsual Studio Workplaces\Personal Projects\GanttChartMaker(v2.0)\GanttChartMaker(v2.0)\bin\Debug\GanttChartMaker(v2.0.exe.config
+D:\Documents HDD\Workstations\VIsual Studio Workplaces\Personal Projects\GanttChartMaker(v2.0)\GanttChartMaker(v2.0)\bin\Debug\GanttChartMaker(v2.0.exe
+D:\Documents HDD\Workstations\VIsual Studio Workplaces\Personal Projects\GanttChartMaker(v2.0)\GanttChartMaker(v2.0)\bin\Debug\GanttChartMaker(v2.0.pdb
+D:\Documents HDD\Workstations\VIsual Studio Workplaces\Personal Projects\GanttChartMaker(v2.0)\GanttChartMaker(v2.0)\obj\Debug\GanttChartMaker.csprojAssemblyReference.cache
+D:\Documents HDD\Workstations\VIsual Studio Workplaces\Personal Projects\GanttChartMaker(v2.0)\GanttChartMaker(v2.0)\obj\Debug\GanttChartMaker_v2._0.GanttChartMaker.resources
+D:\Documents HDD\Workstations\VIsual Studio Workplaces\Personal Projects\GanttChartMaker(v2.0)\GanttChartMaker(v2.0)\obj\Debug\GanttChartMaker_v2._0.Properties.Resources.resources
+D:\Documents HDD\Workstations\VIsual Studio Workplaces\Personal Projects\GanttChartMaker(v2.0)\GanttChartMaker(v2.0)\obj\Debug\GanttChartMaker.csproj.GenerateResource.cache
+D:\Documents HDD\Workstations\VIsual Studio Workplaces\Personal Projects\GanttChartMaker(v2.0)\GanttChartMaker(v2.0)\obj\Debug\GanttChartMaker.csproj.CoreCompileInputs.cache
+D:\Documents HDD\Workstations\VIsual Studio Workplaces\Personal Projects\GanttChartMaker(v2.0)\GanttChartMaker(v2.0)\obj\Debug\GanttChartMaker(v2.0.exe
+D:\Documents HDD\Workstations\VIsual Studio Workplaces\Personal Projects\GanttChartMaker(v2.0)\GanttChartMaker(v2.0)\obj\Debug\GanttChartMaker(v2.0.pdb
+D:\Documents_HDD\Workstations\C#\Personal Projects\GanttChartMaker(v2.0)\GanttChartMaker(v2.0)\bin\Debug\GanttChartMaker(v2.0.exe.config
+D:\Documents_HDD\Workstations\C#\Personal Projects\GanttChartMaker(v2.0)\GanttChartMaker(v2.0)\bin\Debug\GanttChartMaker(v2.0.exe
+D:\Documents_HDD\Workstations\C#\Personal Projects\GanttChartMaker(v2.0)\GanttChartMaker(v2.0)\bin\Debug\GanttChartMaker(v2.0.pdb
+D:\Documents_HDD\Workstations\C#\Personal Projects\GanttChartMaker(v2.0)\GanttChartMaker(v2.0)\obj\Debug\GanttChartMaker.csprojAssemblyReference.cache
+D:\Documents_HDD\Workstations\C#\Personal Projects\GanttChartMaker(v2.0)\GanttChartMaker(v2.0)\obj\Debug\GanttChartMaker_v2._0.GanttChartMaker.resources
+D:\Documents_HDD\Workstations\C#\Personal Projects\GanttChartMaker(v2.0)\GanttChartMaker(v2.0)\obj\Debug\GanttChartMaker_v2._0.Properties.Resources.resources
+D:\Documents_HDD\Workstations\C#\Personal Projects\GanttChartMaker(v2.0)\GanttChartMaker(v2.0)\obj\Debug\GanttChartMaker.csproj.GenerateResource.cache
+D:\Documents_HDD\Workstations\C#\Personal Projects\GanttChartMaker(v2.0)\GanttChartMaker(v2.0)\obj\Debug\GanttChartMaker.csproj.CoreCompileInputs.cache
+D:\Documents_HDD\Workstations\C#\Personal Projects\GanttChartMaker(v2.0)\GanttChartMaker(v2.0)\obj\Debug\GanttChartMaker(v2.0.exe
+D:\Documents_HDD\Workstations\C#\Personal Projects\GanttChartMaker(v2.0)\GanttChartMaker(v2.0)\obj\Debug\GanttChartMaker(v2.0.pdb
