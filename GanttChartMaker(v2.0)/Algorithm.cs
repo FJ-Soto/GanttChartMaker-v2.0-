@@ -3,22 +3,20 @@
  * Each algorithm must implement the following to work successfully.
  */
 
-using System;
-using System.Collections.Generic;
-
 /*
     This abstract class is set to provide a means for 'standardization of algorithms' 
 */
-namespace GanttChartMaker_v2._0
+using System.Collections.Generic;
+
+namespace GanttChartMaker;
+
+interface IAlgorithm
 {
-    abstract class Algorithm
-    {
-        public abstract String Name { get; }
-        public abstract bool canBePreemptive();
-        public abstract bool considersPriority();
-        public abstract bool needsQuantum();
-        public abstract void setData(List<Process> processes);
-        public abstract List<Process> doAlgorithm(bool withArrivalTime);
-        public abstract String onHoverDescription();
-    }
+    public string GetName();
+    public bool CanBePreemptive();
+    public bool ConsidersPriority();
+    public bool NeedsQuantum();
+    public void SetData(List<Process> processes);
+    public List<Process> DoAlgorithm(bool withArrivalTime);
+    public string OnHoverDescription();
 }

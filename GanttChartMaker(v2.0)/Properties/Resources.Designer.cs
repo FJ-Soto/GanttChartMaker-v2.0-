@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace GanttChartMaker_v2._0.Properties
+namespace GanttChartMaker.Properties
 {
 
 

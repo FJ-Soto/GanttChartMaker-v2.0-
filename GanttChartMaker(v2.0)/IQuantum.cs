@@ -2,10 +2,9 @@
  * Interface for algorithms that make use of a quantum.
  */
 
-namespace GanttChartMaker_v2._0
+namespace GanttChartMaker;
+
+interface IQuantum
 {
-    interface IQuantum
-    {
-        void setQuantum(double quantum);
-    }
+    double Quantum { get; set; }
 }

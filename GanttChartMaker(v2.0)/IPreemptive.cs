@@ -2,10 +2,9 @@
  * Interface for algorithms that can be preemptive.
  */
 
-namespace GanttChartMaker_v2._0
+namespace GanttChartMaker;
+
+interface IPreemptive
 {
-    interface IPreemptive
-    {
-        void setPreemptive(bool preemptive);
-    }
+    bool Preemptive { get; set; }
 }
