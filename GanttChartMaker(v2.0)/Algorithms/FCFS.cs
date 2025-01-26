@@ -1,13 +1,14 @@
-﻿using System.Collections.Generic;
+﻿using GanttChartMaker.Algorithms.Interfaces;
+using System.Collections.Generic;
 using System.Linq;
 
-namespace GanttChartMaker;
+namespace GanttChartMaker.Algorithms;
 
 class FCFS : IAlgorithm
 {
     private List<Process> processes;
 
-    public string GetName() => "First Come First Serve";
+    public string Name => "First Come First Server";
 
     public bool CanBePreemptive()
     {
@@ -37,7 +38,7 @@ class FCFS : IAlgorithm
             double timer = 0;
             while (processes.Count != 0)
             {
-                processes = processes.OrderBy(p => p.ArrivalTime).ThenBy(p => p.Name).ToList<Process>();
+                processes = processes.OrderBy(p => p.ArrivalTime).ThenBy(p => p.Name).ToList();
                 // Creates 'idle time'
                 if (timer < processes[0].ArrivalTime)
                 {
@@ -55,14 +56,14 @@ class FCFS : IAlgorithm
         /* If no arrival time is to be considered, serialization sort then execute in order.
          */
         {
-            processes = processes.OrderBy(p => p.Name).ToList<Process>();
+            processes = processes.OrderBy(p => p.Name).ToList();
             double timer = 0;
             foreach (Process p in processes)
             {
                 timer += p.BurstTime;
                 p.CompletionTime = timer;
             }
-            return processes.OrderBy(p => p.Name).ToList<Process>();
+            return processes.OrderBy(p => p.Name).ToList();
         }
     }
 

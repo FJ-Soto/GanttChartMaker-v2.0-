@@ -1,14 +1,15 @@
-﻿using System;
+﻿using GanttChartMaker.Algorithms.Interfaces;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace GanttChartMaker;
+namespace GanttChartMaker.Algorithms;
 
 class SJF : IAlgorithm, IPreemptive
 {
     private List<Process> processes;
 
-    public string GetName() => "Shortest Job First";
+    public string Name => "Shortest Job First";
 
     public bool CanBePreemptive() => true;
 
@@ -36,7 +37,7 @@ class SJF : IAlgorithm, IPreemptive
                 temp.Add(new Process(p));
             }
             double timer = 0;
-            temp = temp.OrderBy(p => p.ArrivalTime).ThenBy(p => p.BurstTime).ThenBy(p => p.Name).ToList<Process>();
+            temp = temp.OrderBy(p => p.ArrivalTime).ThenBy(p => p.BurstTime).ThenBy(p => p.Name).ToList();
             while (temp.Count != 0)
             {
                 if (timer < temp[0].ArrivalTime)
@@ -113,7 +114,7 @@ class SJF : IAlgorithm, IPreemptive
             List<Process> ordered = new List<Process>(), temp = new List<Process>(processes);
             int lowestIndex;
             double timer = 0;
-            temp = temp.OrderBy(p => p.ArrivalTime).ThenBy(p => p.BurstTime).ThenBy(p => p.Name).ToList<Process>();
+            temp = temp.OrderBy(p => p.ArrivalTime).ThenBy(p => p.BurstTime).ThenBy(p => p.Name).ToList();
             while (temp.Count != 0)
             {
                 if (timer < temp[0].ArrivalTime)
@@ -160,13 +161,13 @@ class SJF : IAlgorithm, IPreemptive
              * This sorts by burst time and executes in order.
              */
             double timer = 0;
-            processes = processes.OrderBy(p => p.BurstTime).ThenBy(p => p.Name).ToList<Process>();
+            processes = processes.OrderBy(p => p.BurstTime).ThenBy(p => p.Name).ToList();
             foreach (Process p in processes)
             {
                 timer += p.BurstTime;
                 p.CompletionTime = timer;
             }
-            return processes.OrderBy(p => p.BurstTime).ThenBy(p => p.Name).ToList<Process>();
+            return processes.OrderBy(p => p.BurstTime).ThenBy(p => p.Name).ToList();
         }
     }
 

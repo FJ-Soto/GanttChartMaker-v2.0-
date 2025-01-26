@@ -1,14 +1,16 @@
-﻿using System;
+﻿using GanttChartMaker.Algorithms.Interfaces;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace GanttChartMaker;
+namespace GanttChartMaker.Algorithms;
 
 class LJF : IAlgorithm, IPreemptive
 {
     private List<Process> processes;
 
-    public string GetName() => "Longest Job First";
+    public string Name => "Longest Job First";
+
     public bool CanBePreemptive()
     {
         return true;
@@ -44,7 +46,7 @@ class LJF : IAlgorithm, IPreemptive
                 temp.Add(p);
             }
             double timer = 0;
-            temp = temp.OrderBy(p => p.ArrivalTime).ThenByDescending(p => p.BurstTime).ThenBy(p => p.Name).ToList<Process>();
+            temp = temp.OrderBy(p => p.ArrivalTime).ThenByDescending(p => p.BurstTime).ThenBy(p => p.Name).ToList();
             while (temp.Count != 0)
             {
                 if (timer < temp[0].ArrivalTime)
@@ -121,7 +123,7 @@ class LJF : IAlgorithm, IPreemptive
             List<Process> ordered = new List<Process>(), temp = new List<Process>(processes);
             int lowestIndex;
             double timer = 0;
-            temp = temp.OrderBy(p => p.ArrivalTime).ThenByDescending(p => p.BurstTime).ThenBy(p => p.Name).ToList<Process>();
+            temp = temp.OrderBy(p => p.ArrivalTime).ThenByDescending(p => p.BurstTime).ThenBy(p => p.Name).ToList();
             while (temp.Count != 0)
             {
                 if (timer < temp[0].ArrivalTime)
@@ -172,7 +174,7 @@ class LJF : IAlgorithm, IPreemptive
                 temp.Add(p);
             }
             double timer = 0;
-            temp = temp.OrderByDescending(p => p.BurstTime).ThenBy(p => p.Name).ToList<Process>();
+            temp = temp.OrderByDescending(p => p.BurstTime).ThenBy(p => p.Name).ToList();
             while (temp.Count != 0)
             {
                 if (temp[0].BurstTime <= 1)
@@ -235,13 +237,13 @@ class LJF : IAlgorithm, IPreemptive
              * This sorts by burst time and executes in order.
              */
             double timer = 0;
-            processes = processes.OrderByDescending(p => p.BurstTime).ThenBy(p => p.Name).ToList<Process>();
+            processes = processes.OrderByDescending(p => p.BurstTime).ThenBy(p => p.Name).ToList();
             foreach (Process p in processes)
             {
                 timer += p.BurstTime;
                 p.CompletionTime = timer;
             }
-            return processes.OrderByDescending(p => p.BurstTime).ThenBy(p => p.Name).ToList<Process>();
+            return processes.OrderByDescending(p => p.BurstTime).ThenBy(p => p.Name).ToList();
         }
     }
 

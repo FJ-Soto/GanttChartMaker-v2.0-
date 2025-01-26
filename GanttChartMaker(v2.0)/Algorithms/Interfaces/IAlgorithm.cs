@@ -8,11 +8,11 @@
 */
 using System.Collections.Generic;
 
-namespace GanttChartMaker;
+namespace GanttChartMaker.Algorithms.Interfaces;
 
 interface IAlgorithm
 {
-    public string GetName();
+    public string Name { get; }
     public bool CanBePreemptive();
     public bool ConsidersPriority();
     public bool NeedsQuantum();

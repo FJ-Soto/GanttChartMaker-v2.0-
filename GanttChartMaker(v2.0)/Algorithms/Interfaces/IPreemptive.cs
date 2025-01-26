@@ -2,7 +2,7 @@
  * Interface for algorithms that can be preemptive.
  */
 
-namespace GanttChartMaker;
+namespace GanttChartMaker.Algorithms.Interfaces;
 
 interface IPreemptive
 {

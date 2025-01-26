@@ -2,7 +2,7 @@
  * Interface for algorithms that make use of a quantum.
  */
 
-namespace GanttChartMaker;
+namespace GanttChartMaker.Algorithms.Interfaces;
 
 interface IQuantum
 {

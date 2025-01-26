@@ -1,8 +1,9 @@
-﻿using System;
+﻿using GanttChartMaker.Algorithms.Interfaces;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace GanttChartMaker;
+namespace GanttChartMaker.Algorithms;
 
 class Priority : IAlgorithm, IPreemptive, IPriority
 {
@@ -10,7 +11,7 @@ class Priority : IAlgorithm, IPreemptive, IPriority
     private List<Process> processes;
 
     /*Name getter-- what's displayed in combobox*/
-    public string GetName() => "Priority";
+    public string Name => "Priority";
     /*Methods that decide if checkboxes are enabled/disabled*/
     public bool CanBePreemptive() => true;
 
@@ -25,18 +26,18 @@ class Priority : IAlgorithm, IPreemptive, IPriority
 
     public bool Preemptive { get; set; } = false;
 
-    public bool AscendingPriority {  get; set; } = false;
+    public bool AscendingPriority { get; set; } = false;
 
     private List<Process> Sort()
     {
         // handles the appropriate order to sort by.
         if (AscendingPriority)
         {
-            return processes.OrderBy(p => p.ArrivalTime).ThenByDescending(p => p.Priority).ThenBy(p => p.Name).ToList<Process>();
+            return processes.OrderBy(p => p.ArrivalTime).ThenByDescending(p => p.Priority).ThenBy(p => p.Name).ToList();
         }
         else
         {
-            return processes.OrderBy(p => p.ArrivalTime).ThenBy(p => p.Priority).ThenBy(p => p.Name).ToList<Process>();
+            return processes.OrderBy(p => p.ArrivalTime).ThenBy(p => p.Priority).ThenBy(p => p.Name).ToList();
         }
     }
 
@@ -167,9 +168,9 @@ class Priority : IAlgorithm, IPreemptive, IPriority
         else
         {
             // sort solely on priority then serialization
-            processes = AscendingPriority ? processes.OrderByDescending(p => p.Priority).ThenBy(p => p.Name).ToList<Process>(): processes.OrderBy(p => p.Priority).ThenBy(p => p.Name).ToList<Process>();
+            processes = AscendingPriority ? processes.OrderByDescending(p => p.Priority).ThenBy(p => p.Name).ToList() : processes.OrderBy(p => p.Priority).ThenBy(p => p.Name).ToList();
             double timer = 0;
-            foreach(Process p in processes)
+            foreach (Process p in processes)
             {
                 timer += p.BurstTime;
                 p.CompletionTime = timer;

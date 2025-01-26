@@ -1,4 +1,6 @@
-﻿using System;
+﻿using GanttChartMaker.Algorithms;
+using GanttChartMaker.Algorithms.Interfaces;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Drawing;
@@ -23,8 +25,7 @@ public partial class GanttChartMaker : Form
 
     private void GanttChartMaker_Load(object sender, EventArgs e)
     {
-        List<IAlgorithm> algorithms = new List<IAlgorithm>();
-        algorithms.AddRange(new IAlgorithm[] { new FCFS(), new SJF(), new Priority(), new RR(), new LJF() });
+        List<IAlgorithm> algorithms =[new FCFS(), new SJF(), new Priority(), new RR(), new LJF()];
         pnlDrawResultSplit.SplitterDistance = 180;
         cbAlgorithms.DataSource = algorithms;
         cbAlgorithms.DisplayMember = "Name";

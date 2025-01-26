@@ -1,20 +1,21 @@
-﻿using System;
+﻿using GanttChartMaker.Algorithms.Interfaces;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace GanttChartMaker;
+namespace GanttChartMaker.Algorithms;
 
 class RR : IAlgorithm, IPreemptive, IQuantum
 {
     private List<Process> processes;
 
-    public string GetName() => "Round Robin";
+    public string Name => "Round Robin";
     public bool CanBePreemptive() => false;
 
     public bool ConsidersPriority() => false;
 
-    public bool NeedsQuantum() => false;
-   
+    public bool NeedsQuantum() => true;
+
     public bool Preemptive { get; set; } = false;
 
 
@@ -35,7 +36,7 @@ class RR : IAlgorithm, IPreemptive, IQuantum
             List<Process> ordered = new List<Process>();
             double timer = 0;
             bool enqueue;
-            processes = processes.OrderBy(p => p.ArrivalTime).ThenBy(p => p.Name).ToList<Process>();
+            processes = processes.OrderBy(p => p.ArrivalTime).ThenBy(p => p.Name).ToList();
             q.Enqueue(processes[0]);
             processes.RemoveAt(0);
             while (q.Count != 0)
@@ -78,7 +79,7 @@ class RR : IAlgorithm, IPreemptive, IQuantum
                     enqueue = true;
                 }
                 //sort
-                processes = processes.OrderBy(p => p.ArrivalTime).ThenBy(p => p.Name).ToList<Process>();
+                processes = processes.OrderBy(p => p.ArrivalTime).ThenBy(p => p.Name).ToList();
                 // Enqueue any newly available processes.
                 foreach (Process p in processes)
                 {
@@ -88,7 +89,7 @@ class RR : IAlgorithm, IPreemptive, IQuantum
                     }
                 }
                 // Remove all that were just added.
-                processes.RemoveAll(p => (p.ArrivalTime <= timer));
+                processes.RemoveAll(p => p.ArrivalTime <= timer);
                 // Re-enqueue the currently executed process if not completed.
                 if (enqueue)
                 {
@@ -110,7 +111,7 @@ class RR : IAlgorithm, IPreemptive, IQuantum
         {
             Queue<Process> q = new Queue<Process>();
             List<Process> ordered = new List<Process>();
-            processes = processes.OrderBy(p => p.Name).ToList<Process>();
+            processes = processes.OrderBy(p => p.Name).ToList();
             double timer = 0;
             foreach (Process p in processes)
             {
