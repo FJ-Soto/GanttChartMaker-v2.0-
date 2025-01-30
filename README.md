@@ -33,7 +33,6 @@ To use **GanttChartMaker**, follow these steps:
 2. Open the solution file in Visual Studio.
 3. Build the project to restore dependencies.
 4. Run the application using Visual Studio or publish it as an executable.
-5. (Optional) Publish application to create an executable.
 
 ## Usage
 
